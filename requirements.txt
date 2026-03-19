@@ -1,0 +1,19 @@
+# Add your project dependencies here
+# streamlit
+# anthropic
+# openai
+# pandas
+# chromadb  # or your vector store of choice
+
+anthropic
+chromadb
+openai
+groq
+streamlit
+pandas
+python-dotenv
+rank_bm25
+tqdm
+sentence-transformers
+networkx
+pyvis
