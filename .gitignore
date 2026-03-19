@@ -1,0 +1,42 @@
+# environment
+.env
+venv/
+.venv/
+env/
+
+# data files — too large for GitHub
+data/enriched.json
+data/enriched_small.json
+data/movie_graph.graphml
+data/knowledge_graph.html
+
+# keep the raw TMDB csvs out too
+data/*.csv
+
+# python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# os
+.DS_Store
+Thumbs.db
+
+# streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
