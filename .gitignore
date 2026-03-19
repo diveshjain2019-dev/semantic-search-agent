@@ -1,39 +1,16 @@
-# environment
 .env
 venv/
 .venv/
 env/
-
-# data files — comment out for deployment
-# data/chroma_db/
-# data/enriched.json
-# data/enriched_small.json
-# data/movie_graph.graphml
-# data/knowledge_graph.html
-
-# keep the raw TMDB csvs out
 data/*.csv
-
-# python
+data/movie_graph.graphml
+data/knowledge_graph.html
 __pycache__/
 *.py[cod]
 *.pyo
-*.pyd
-.Python
-*.egg-info/
-dist/
-build/
-*.egg
-
-# streamlit
-.streamlit/secrets.toml
-
-# os
 .DS_Store
 Thumbs.db
-
-# IDE
+.streamlit/secrets.toml
 .vscode/
 .idea/
-*.swp
-*.swo
+```
