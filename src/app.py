@@ -8,9 +8,14 @@ load_dotenv(Path(__file__).resolve().parents[1] / ".env")
 
 import streamlit as st
 
-from src.planner import plan_query
-from src.search import hybrid_search, synthesize_answer
+#from src.planner import plan_query
+#from src.search import hybrid_search, synthesize_answer
+import sys
+import os
+sys.path.insert(0, os.path.dirname(__file__))
 
+from planner import plan_query
+from search import hybrid_search, synthesize_answer
 
 # Global styling (Netflix / cinema theme)
 st.markdown(
