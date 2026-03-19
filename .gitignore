@@ -4,13 +4,14 @@ venv/
 .venv/
 env/
 
-# data files — too large for GitHub
-data/enriched.json
-data/enriched_small.json
-data/movie_graph.graphml
-data/knowledge_graph.html
+# data files — comment out for deployment
+# data/chroma_db/
+# data/enriched.json
+# data/enriched_small.json
+# data/movie_graph.graphml
+# data/knowledge_graph.html
 
-# keep the raw TMDB csvs out too
+# keep the raw TMDB csvs out
 data/*.csv
 
 # python
@@ -24,16 +25,12 @@ dist/
 build/
 *.egg
 
-# jupyter
-.ipynb_checkpoints/
-*.ipynb
+# streamlit
+.streamlit/secrets.toml
 
 # os
 .DS_Store
 Thumbs.db
-
-# streamlit
-.streamlit/secrets.toml
 
 # IDE
 .vscode/
